@@ -93,6 +93,10 @@ article {
     margin-left:60%;
     text-align:center;
 }
+#img img{
+  width: 100%; 
+  height: auto;
+}
 h1 {
     color:#d50000;
     font-size:x-large;
