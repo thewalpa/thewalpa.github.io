@@ -42,6 +42,7 @@ nav ol li a {
     padding-bottom: 1%;
     text-decoration: none;
     text-align: center;
+    font-size:90%;
 }
 nav ol li a:visited {
     background-color: #d50000;  
@@ -72,9 +73,10 @@ article {
     margin-right: 8%;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: solid 2px red;
+    border: solid 2px #d50000;
     border-radius: 20px;
     padding: 2%;
+    min-height:400px;
 }
 #content {
     width: 60%;
@@ -94,8 +96,13 @@ article {
     text-align:center;
 }
 #img img{
-  width: 100%; 
+  padding-left:1%;
+  width: 99%; 
   height: auto;
+}
+.t25b20{ 
+    margin-top:25%;
+    margin-bottom:20%;
 }
 h1 {
     color:#d50000;
@@ -143,4 +150,51 @@ footer a:hover {
 }
 footer a:active {
     font-style: italic;
+}
+
+@media only screen and (orientation:portrait) {
+header {
+  background-position: right;
+} 
+nav ol {
+    margin: 0px;
+    padding: 0px;
+}
+nav ol li a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    border-top: 1px solid white;
+    font-size:x-large;
+}
+#main {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: none;
+    padding: 0%;
+}
+#content {
+    width: 96%;
+    padding:2%;
+}
+#img{
+    display:block;
+    width:100%;
+    margin-left:0%;
+    padding-left:0%;
+}
+#img img{
+    padding-left:0%; 
+    width:95%;
+}
+.t25b20{
+    margin:0%;
+}
+.hidden {
+    clear:both;
+    visibility:hidden;
+    height:0px;
+}
 }
