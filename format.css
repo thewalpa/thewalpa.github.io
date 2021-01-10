@@ -58,6 +58,51 @@ nav ol li a:active {
 article {
    clear:both;
 }
+#main {
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: solid 2px red;
+    border-radius: 20px;
+    padding: 2%;
+}
+#content {
+    width: 60%;
+    float: left;
+    overflow:hidden;
+}
+#content a, #content a:visited{
+    color: #d50000;
+    text-decoration: none;   
+}
+#content a:focus, #content a:hover, #content a:active {
+    font-style: italic;
+}
+#img{
+  
+    width:40%;
+    margin-left:60%;
+    text-align:center;
+}
+h1{
+    color:#d50000;
+    font-size:x-large;
+}
+h2 {
+    color: #d50000;
+    font-size: medium;
+    font-weight:normal;
+}
+h4{
+  margin-bottom:0px;
+  font-size:large; 
+}
+h5 {
+    font-size:medium; 
+    display:inline;
+}
 footer {
     background-color: #d50000;
     margin: 0px;
