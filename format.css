@@ -55,6 +55,14 @@ nav ol li a:hover {
 nav ol li a:active {
     background: rgba(132, 132, 132, 0.8);
 }
+.akt{
+    background-color: #d50000;
+    font-weight: bold;
+}
+.akt-hover {
+    background-color: #d50000;
+    font-weight: bold;
+}
 article {
    clear:both;
 }
