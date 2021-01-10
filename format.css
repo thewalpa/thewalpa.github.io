@@ -55,7 +55,6 @@ nav ol li a:hover {
 nav ol li a:active {
     background: rgba(132, 132, 132, 0.8);
 }
-CSS
 .akt{
     background-color: #d50000;
     font-weight: bold;
@@ -92,11 +91,6 @@ article {
 #img {
     width:40%;
     margin-left:60%;
-    text-align:center;
-}
-#img2 {
-    width:20%;
-    height:20%;
     text-align:center;
 }
 h1 {
