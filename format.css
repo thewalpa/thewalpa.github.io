@@ -98,6 +98,7 @@ article {
 }
 #img img{
   padding-left:1%;
+  border-radius: 5%;
 }
 .w400 {
     width: 400px;
@@ -139,14 +140,11 @@ footer h3{
     font-size:small;
     font-family: sans-serif; 
 }
-footer a {
+footer a, footer a:visited {
     text-decoration:none;
     font-family: sans-serif;
     color:#fff;
     font-size:small;
-}
-footer a:visited {
-    font-style:italic;
 }
 footer a:focus {
     font-style: italic;
