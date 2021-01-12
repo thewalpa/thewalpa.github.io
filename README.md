@@ -1,3 +1,3 @@
-# thewalpa.github.io
+# Willkommen beim Website-Projekt PM Gruppe 5
  
-acces to website: https://thewalpa.github.io/
+website: https://thewalpa.github.io/
